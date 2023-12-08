@@ -1,0 +1,16 @@
+{
+  "username": "root",
+  "database": "tclab",
+  "password": "123456",
+  "host": "localhost",
+  "dialect": "mysql",
+  "connectionTimeout": 3000,
+  "requestTimeout": 3000,
+  "encrypt": true,
+  "pool": {
+    "max": 5,
+    "min": 0,
+    "acquire": 30000,
+    "idle": 10000
+  }
+}

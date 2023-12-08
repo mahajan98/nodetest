@@ -1,0 +1,53 @@
+{
+    "name": "test-master",
+    "version": "1.0.0",
+    "description": "test-master-microservice",
+    "main": "index.js",
+    "keywords": [
+        "test-master"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon index.js"
+    },
+    "author": "JSA",
+    "license": "ISC",
+    "dependencies": {
+        "app-root-path": "^3.1.0",
+        "axios": "^1.1.2",
+        "body-parser": "^1.20.1",
+        "cors": "^2.8.5",
+        "crypto": "^1.0.1",
+        "crypto-js": "^4.1.1",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.1",
+        "express-basic-auth": "^1.2.1",
+        "joi": "^17.7.0",
+        "jsonwebtoken": "^8.5.1",
+        "moment": "^2.29.4",
+        "morgan": "^1.10.0",
+        "mysql": "^2.18.1",
+        "mysql2": "^3.6.5",
+        "nodemon": "^2.0.20",
+        "pg": "^8.8.0",
+        "razorpay": "^2.8.3",
+        "sequelize": "^6.24.0",
+        "shortid": "^2.2.16",
+        "solclientjs": "^10.11.0",
+        "swagger-jsdoc": "^6.2.1",
+        "swagger-ui-express": "^4.3.0",
+        "winston": "^3.11.0",
+        "winston-daily-rotate-file": "^4.7.1"
+    },
+    "devDependencies": {
+        "eslint": "^8.7.0",
+        "eslint-config-airbnb": "^19.0.4",
+        "eslint-config-prettier": "^2.9.0",
+        "eslint-plugin-import": "^2.19.1",
+        "eslint-plugin-jsx-a11y": "^6.0.3",
+        "eslint-plugin-prettier": "^2.6.2",
+        "eslint-plugin-react": "^7.17.0",
+        "jest": "latest",
+        "prettier": "^1.17.1"
+    }
+}
